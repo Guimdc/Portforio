@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #d1d1d1;
+}
+
+header{
+    height: 50px;
+    background-color: #e10600;
+    float: left;
+    width: 100%;
+    padding: 15px 0 15px 0;
+    position: fixed;
+    text-align: left;
+}
+
+#logo{
+    width: 10%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+nav{
+    height: 40px;
+    padding-bottom: 150px;
+    float: left;
+    width: 100%;
+    position: fixed;
+    margin-left: 150px;
+    
+}
+
+nav ul{
+    list-style:none;
+    margin-top: 10px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    font-size: 26px;
+    margin-left: 60px;
+    color: #fff;
+    padding: 23px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: #15151e;
+}
+
+main{
+    padding: 10px 0 10px 0px;
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+}
+
+main div{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.imagens{
+    width: 350px;
+    height: 200px;
+    float: left;
+    overflow: hidden;
+    border: 10px solid #d1d1d1;
+    margin-left: 70px;
+
+}
+
+.imagens img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+    
+}
+
+.imagens img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+footer{
+    width: 100%;
+    float: left;
+    background-color: #15151e;
+    padding-bottom: 25px;
+}
+
+footer p{
+    text-align: center;
+    margin-left: 15px;
+    color: #fff;
+    vertical-align: middle;
+}
